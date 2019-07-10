@@ -2511,7 +2511,7 @@ ul {
 .banner_part {
   height: 890px;
   position: relative;
-  background-image: url(../img/banner_bg_1.png);
+  background-image: url(../../../public/image/image-hipstyle/banner_bg_1.png);
   background-repeat: no-repeat;
   background-size: 100% 99%;
   background-position: left top;
@@ -2565,7 +2565,7 @@ ul {
   content: "";
   top: 0;
   z-index: -1;
-  background: url(../img/banner_bg.png) top right no-repeat;
+  background: url(../../../public/image/image-hipstyle/banner_bg.png) top right no-repeat;
   right: 0;
   background-size: 46%;
 }
@@ -3127,7 +3127,7 @@ ul {
   content: "";
   bottom: 133px;
   z-index: -1;
-  background: url(../img/about_overlay.png) bottom right no-repeat;
+  background: url(../../../public/image/image-hipstyle/about_overlay.png) bottom right no-repeat;
   background-size: 15% 60%;
   right: 0px;
 }
@@ -3694,7 +3694,7 @@ ul {
   content: "";
   width: 40%;
   height: 100%;
-  background-image: url("../img/reservation_bg.png");
+  background-image: url("../../../public/image/image-hipstyle/reservation_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4057,7 +4057,7 @@ ul {
 /**************** review_part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_review.scss */
 .review_part {
-  background-image: url("../img/review_bg.png");
+  background-image: url("../../../public/image/image-hipstyle/review_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5620,7 +5620,7 @@ h6 {
 
 /* line 798, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5662,7 +5662,7 @@ h6 {
 
 /* line 835, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5710,7 +5710,7 @@ h6 {
 
 /* line 876, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5752,7 +5752,7 @@ h6 {
 
 /* line 913, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5794,7 +5794,7 @@ h6 {
 
 /* line 950, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5842,7 +5842,7 @@ h6 {
 
 /* line 991, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/image-hipstyle/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -6326,7 +6326,7 @@ h6 {
 
 /* line 1, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
+  background-image: url("../../../public/image/image-hipstyle/breadcrumb.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
