@@ -1,0 +1,8 @@
+Rem : appru 
+Lỗi  Thiếu file: ads-banner.jpg
+Rem: blogger
+lỗi thiếu a.jpg , a2.jpg , fav.png
+Rem: callcenter
+lỗi thiếu a.jpg , a2.jpg , fav.png
+Rem: cohost
+lỗi thiếu jquery.timepicker.js
