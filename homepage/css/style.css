@@ -3,7 +3,10 @@
     margin: 0;
 }
 body{
-  font-family: Pristina;
+  font-family: Pristina;background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }.fixed-top{
+  background-color: #63d065;
 }
 i {
   width: 20px;
@@ -136,7 +139,7 @@ section {
 }
 .name-web {
   text-align: center;
-    font-family:Pristina ;
+    /*font-family:Pristina ;*/
     text-transform: capitalize;
     padding-bottom: 3%;
     padding-left: 3%;
@@ -452,9 +455,7 @@ span.psw {
     margin-bottom: 25px;
     font-size: 13px;
   }
-  .text-center img {
-    width: 100px;
-  }
+ 
   .info-customer b {
     margin: 0;
   } 
@@ -645,4 +646,147 @@ img {vertical-align: middle;}
 }
 .progress{
   background: none !important;;
+}.accordian{
+  width: 705px;
+  height: 333px;
+  overflow:hidden;
+  
+  margin: 100px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0px 8px 6px -6px black;
+}
+.accordian ul{
+  
+}
+.accordian li{
+  position: relative;
+  display:block;
+  width:140px;
+  float: left;
+  
+  border-left: 1px solid #888;
+  -webkit-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+
+.accordian ul:hover li{
+  width: 50px;
+}
+
+.accordian ul li:hover{
+  width:500px;
+}
+
+.accordian li img{
+  display: block;
+}
+
+.image_title{
+  background: rgba(0,0,0,0.5);
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:500px;
+}
+
+.image_title a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding:20px;
+  font-size:16px;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
