@@ -903,7 +903,7 @@ h4,
 }
 
 .hero-banner__video {
-    background: url(../../image/img-sneaky/home/play-icon.png) left center no-repeat;
+    background: url(../../../public/image/img-sneaky/home/play-icon.png) left center no-repeat;
     margin-left: 15px;
     padding: 12px 5px 12px 45px !important;
     font-size: 14px;
@@ -1381,7 +1381,7 @@ h4,
 }
 
 .cta-area {
-    background: url(../../image/img-sneaky/home/cta-bg.png) left center no-repeat;
+    background: url(../../../public/image/img-sneaky/home/cta-bg.png) left center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1542,7 +1542,7 @@ h4,
 }
 
 .search-wrapper {
-    background: url(../../image/img-sneaky/home/reservation-bg.png) left center no-repeat;
+    background: url(../../../public/image/img-sneaky/home/reservation-bg.png) left center no-repeat;
     background-size: cover;
     padding: 30px 10px;
     text-align: center;

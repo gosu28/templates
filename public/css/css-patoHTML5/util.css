@@ -3695,17 +3695,17 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .bg1-pattern {
-	background-image: url(../images/icons/pattern1.png);
+	background-image: url(../../../public/image/images-patoHTML5/icons/pattern1.png);
   	background-repeat: repeat;
 }
 
 .bg2-pattern {
-	background-image: url(../images/icons/pattern2.png);
+	background-image: url(../../../public/image/images-patoHTML5/icons/pattern2.png);
   	background-repeat: repeat;
 }
 
 .bg3-pattern {
-	background-image: url(../images/icons/pattern3.png);
+	background-image: url(../../../public/image/images-patoHTML5/icons/pattern3.png);
   	background-repeat: repeat;
 }
 
