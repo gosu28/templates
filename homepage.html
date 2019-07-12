@@ -1,12 +1,410 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Show Templates</title>
-	<link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Template Service</title>
+    <link rel="stylesheet" href="./homepage/css/style.css">
+    <link rel="stylesheet" href="./homepage/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./homepage/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./homepage/css/all.min.css">
+    <link rel="stylesheet" href="./homepage/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b43442a51c.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./homepage/js/owl.carousel.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
 </head>
+<style type="text/css" media="screen">
+    body{
+     background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+</style>
 <body>
-	
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./homepage/image/logo.png" alt="" style="width: 150px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center navbar-fixed-top" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto justify-content-end">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Web
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#webBanHang">Web bán hàng</a>
+                    <a class="dropdown-item" href="#webGioiThieu">Web giới thiệu công ty.</a>
+                    <a class="dropdown-item" href="#webApp">Web app</a>
+                    <a class="dropdown-item" href="#webGame">Web game online</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="document.getElementById('id01').style.display='block'"
+                style="cursor:pointer;display:inline-block">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="intro text-center ">
+        <img src="./homepage/image/product.jpg" alt="">
+        <span>Sản Phẩm</span>
+    </div>
+    <div class="row">
+        <div class="web-detail-info col-md-6" id="webBanHang">
+            <div class="name-web"><span>Web bán hàng</span></div>
+            <div class="web-detail">
+                <div class="more-info">
+                    <span><a class="btn see-more btn-outline-danger" href="details.html">Xem thêm <i class="fas fa-angle-double-right"></i></a></span>
+                </div>
+                <div class="slider-product owl-carousel owl-theme">
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider1.jpg" alt="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""> <img src="./homepage/image/slider2.jpg" alt="">Demo 2</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider3.jpg" alt="">Demo 3</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web-detail-info col-md-6" id="webGioiThieu">
+           <div class="name-web"><span>Web công ty</span></div>
+           <div class="web-detail">
+                <div class="more-info">
+                    <span><a class="btn see-more btn-outline-danger" href="{{ url('home/details') }}">Xem thêm <i class="fas fa-angle-double-right"></i></a></span>
+                </div>
+                <div class="slider-product owl-carousel owl-theme">
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider1.jpg" alt="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""> <img src="./homepage/image/slider2.jpg" alt="">Demo 2</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider3.jpg" alt="">Demo 3</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web-detail-info col-md-6" id="webBanHang">
+            <div class="name-web"><span>Web bán hàng</span></div>
+            <div class="web-detail">
+                <div class="more-info">
+                    <span><a class="btn see-more btn-outline-danger" href="details.html">Xem thêm <i class="fas fa-angle-double-right"></i></a></span>
+                </div>
+                <div class="slider-product owl-carousel owl-theme">
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider1.jpg" alt="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""> <img src="./homepage/image/slider2.jpg" alt="">Demo 2</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider3.jpg" alt="">Demo 3</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web-detail-info col-md-6" id="webGioiThieu">
+           <div class="name-web"><span>Web công ty</span></div>
+           <div class="web-detail">
+                <div class="more-info">
+                    <span><a class="btn see-more btn-outline-danger" href="details.html">Xem thêm <i class="fas fa-angle-double-right"></i></a></span>
+                </div>
+                <div class="slider-product owl-carousel owl-theme">
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider1.jpg" alt="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""> <img src="./homepage/image/slider2.jpg" alt="">Demo 2</a>
+                    </div>
+                    <div class="item text-center">
+
+                        <a href=""><img src="./homepage/image/slider3.jpg" alt="">Demo 3</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider1.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider2.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                    <div class="item text-center">
+                        <img src="./homepage/image/slider3.jpg" alt="">
+                        <a href="">Demo 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="comment text-center gray">
+  <div class="container">
+      <img src="./homepage/image/user.png" alt="">
+      <h3>Phản Hồi Từ Khách Hàng</h3>
+      <div class="progress progress-2">
+          <b>1<i class="fas fa-star" style="font-size: 100%"></i></b><div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 15%"><span>15%</span></div> 
+      </div>
+      <br>
+      <div class="progress">
+          <b>2<i class="fas fa-star" style="font-size: 100%"></i></b><div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><span>35%</span></div>
+
+      </div>  <br>
+      <div class="progress">
+          <b>3<i class="fas fa-star" style="font-size: 100%"></i></b><div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span>50%</span></div>
+      </div><br>
+      <div class="progress">
+          <b>4<i class="fas fa-star" style="font-size: 100%"></i></b><div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+      </div><br>
+      <div class="progress">
+          <b>5<i class="fas fa-star" style="font-size: 100%"></i></b><div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span>94%</span></div>
+      </div>
+      <hr>
+
+      <div class="row user-comment">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <img src="./homepage/image/user.jpg" alt="">
+              <h5>Lionel Messi</h5>
+              <q><i> Talent Wins's CEO </i></q>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <img src="./homepage/image/user.jpg" alt="">
+              <h5>Lionel Messi</h5>
+              <q><i> Talent Wins's CEO </i></q>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <img src="./homepage/image/user.jpg" alt="">
+              <h5>Lionel Messi</h5>
+              <q><i> Talent Wins's CEO </i></q>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+<div id="id01" class="modal">
+    <form class="modal-content animate" action="">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="info-contact  col-md-5 ">
+                    <h5>Thông tin liên hệ</h5>
+                    <div class="mt-50">
+                        <p>Địa chỉ: Tòa CT2, khu đô thị Thái Hà Constrexim, 43 Phạm Văn Đồng, Hà Nội</p>
+                        <p>Email: </p>
+                        <p>Hotline: 0927 15 15 35 (Mr. Hải)</p>
+                        <p>Website: <a href="">Talentwins.co</a></p>
+                    </div>
+                    <div class="text-center"><img src="./homepage/image/contact.jpg" alt=""></div>
+                </div>
+                <div class="col-md-7  info-customer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                    <h5>Thông tin khách hàng</h5>
+                    <label for="name"><b>Name</b> <span style="color:red;">(*)</span></label>
+                    <input type="text" placeholder="Họ tên" name="name" required>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Địa chỉ email" name="email">
+                    <label for="phone"><b>Phone Number</b> <span style="color:red;">(*)</span></label>
+                    <input type="text" placeholder="Số điện thoại" name="phoneNumber" required>
+                    <label for="messenger"><b>Messenger</b> <span style="color:red;">(*)</span></label>
+                    <textarea name="" id="" rows="5" style="width:100%;"></textarea>
+                    <div class="text-center pt-3"><button type="submit" class="btn btn-success">Đăng kí để nhận thông
+                    tin</button></div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="about-me col-md-4 ">
+                <h4>Thông tin liên hệ</h4>
+                <i class="fas fa-map-marker-alt"></i><span>Tòa CT2, khu đô thị Thái Hà Constrexim, 43 Phạm Văn
+                Đồng, Hà Nội</span><br>
+                <i class="fas fa-at"></i><span>Nguyencaotai@gmail.com </span><br>
+                <i class="fas fa-phone"></i><span>0927 15 15 35 (Mr. Hải)</span><br>
+                <i class="fas fa-globe-americas"></i><span><a href="" style="text-decoration: none;">
+                Talentwins.co</a></span><br><br>
+            </div>
+            <div class="about-me col-md-4">
+                <h4>Về chúng tôi</h4>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Giới thiệu.</a>
+                </div>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Định hướng phát triển.</a>
+                </div>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Khách hàng.</a>
+                </div>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Dịch vụ.</a>
+                </div>
+            </div>
+            <div class="service col-md-4">
+                <h4>Dịch vụ</h4>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Chính sách bảo hành của công ty.</a>
+                </div>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Chính sách bảo trì của công ty.</a>
+                </div>
+                <div class="detail-info">
+                    <i class="fas fa-check"></i><a href=""> Chăm sóc khách hàng của công ty.</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="text-center split">
+   <span>Copyright 2019 © Design and develop by Gosu28. All rights reserved.</span>
+</div>
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+
+<script src="./homepage/js/effect.js"></script>
+<script src="./homepage/js/contact.js"></script>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
 </body>
 </html>
+
