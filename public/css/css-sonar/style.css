@@ -12,12 +12,12 @@
 /* :: Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 /* :: Import All CSS */
-@import url(css/bootstrap.min.css);
-@import url(css/animate.css);
-@import url(css/owl.carousel.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-@import url(css/themify-icons.css);
+@import url(../../../public/css/css-sonar/bootstrap.min.css);
+@import url(../../../public/css/css-sonar/animate.css);
+@import url(../../../public/css/css-sonar/owl.carousel.css);
+@import url(../../../public/css/css-sonar/magnific-popup.css);
+@import url(../../../public/css/css-sonar/font-awesome.min.css);
+@import url(../../../public/css/css-sonar/themify-icons.css);
 /* :: Base CSS */
 * {
   margin: 0;

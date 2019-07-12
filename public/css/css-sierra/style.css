@@ -342,7 +342,7 @@ i:before {
 
 .banner_area:before {
   content: "";
-  background: url(../../image/img--sierra/banner/banner-bg.png) no-repeat scroll center right;
+  background: url(../../image/img-sierra/banner/banner-bg.png) no-repeat scroll center right;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -389,7 +389,7 @@ i:before {
 /* Slider css
 ============================================================================================ */
 .main_slider_area {
-  background: url(../../image/img--sierra/home-slider/slider-bg-1.png) no-repeat scroll center center;
+  background: url(../../image/img-sierra/home-slider/slider-bg-1.png) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -476,7 +476,7 @@ i:before {
 
 .testimonials_slider:before {
   content: "";
-  background: url(../../image/img--sierra/3d-shap.png) no-repeat scroll center center;
+  background: url(../../image/img-sierra/3d-shap.png) no-repeat scroll center center;
   height: 600px;
   max-width: 524px;
   width: 100%;
@@ -915,7 +915,7 @@ i:before {
 /* Service Solution Area css
 ============================================================================================ */
 .service_solution_area {
-  background: url(../../image/img--sierra/service-bg.jpg) no-repeat fixed center right;
+  background: url(../../image/img-sierra/service-bg.jpg) no-repeat fixed center right;
   background-size: cover;
   position: relative;
   z-index: 3;
@@ -1136,7 +1136,7 @@ i:before {
 
 .best_3d_area .left_3d:before {
   content: "";
-  background: url(../../image/img--sierra/3d-slider-shap.png) no-repeat scroll center center;
+  background: url(../../image/img-sierra/3d-slider-shap.png) no-repeat scroll center center;
   background-size: cover;
   min-height: 100%;
   position: absolute;
@@ -2279,7 +2279,7 @@ i:before {
 /* Footer Area css
 ============================================================================================ */
 .footer_widget_area {
-  background: url(../../image/img--sierra/footer-bg.jpg) no-repeat scroll center center;
+  background: url(../../image/img-sierra/footer-bg.jpg) no-repeat scroll center center;
   background-size: cover;
   padding: 130px 0px 115px 0px;
 }
