@@ -2295,7 +2295,7 @@ ul {
   background-color: #fafafa;
   border-top-left-radius: 10px !important;
   border-bottom-left-radius: 10px;
-  background-image: url(../img/icon/long-arrow-pointing-to-the-right.svg);
+  background-image: url(../../../public/image/daren/icon/long-arrow-pointing-to-the-right.svg);
   background-position: 96% 47%;
   background-repeat: no-repeat;
   background-size: 16px 17px;
@@ -2521,7 +2521,7 @@ ul {
 
 /* line 7, E:/168 Daren Blog/168_Daren_Blog_html/sass/_banner.scss */
 .banner_post .banner_post_bg_1 {
-  background-image: url("../img/banner_blog/banner_blog_1.png");
+  background-image: url("../../../public/image/daren/banner_blog/banner_blog_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2529,7 +2529,7 @@ ul {
 
 /* line 10, E:/168 Daren Blog/168_Daren_Blog_html/sass/_banner.scss */
 .banner_post .banner_post_bg_2 {
-  background-image: url("../img/banner_blog/banner_blog_2.png");
+  background-image: url("../../../public/image/daren/banner_blog/banner_blog_2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4853,7 +4853,7 @@ h6 {
 
 /* line 798, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -4895,7 +4895,7 @@ h6 {
 
 /* line 835, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -4943,7 +4943,7 @@ h6 {
 
 /* line 876, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -4985,7 +4985,7 @@ h6 {
 
 /* line 913, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5027,7 +5027,7 @@ h6 {
 
 /* line 950, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5075,7 +5075,7 @@ h6 {
 
 /* line 991, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../../../public/image/daren/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 

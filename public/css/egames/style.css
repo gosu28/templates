@@ -2,12 +2,12 @@
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 /* :: 2.0 Import All CSS */
-@import url(css/bootstrap.min.css);
-@import url(css/classy-nav.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/animate.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
+@import url(../../../public/css/egames/bootstrap.min.css);
+@import url(../../../public/css/egames/classy-nav.css);
+@import url(../../../public/css/egames/owl.carousel.min.css);
+@import url(../../../public/css/egames/animate.css);
+@import url(../../../public/css/egames/magnific-popup.css);
+@import url(../../../public/css/egames/font-awesome.min.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -247,7 +247,7 @@ img {
   position: relative;
   z-index: 2; }
   .bg-pattern::after {
-    background-image: url(img/core-img/pattern.png);
+    background-image: url(../../../public/css/egames/core-img/pattern.png);
     background-repeat: repeat;
     content: '';
     position: absolute;
@@ -262,7 +262,7 @@ img {
   position: relative;
   z-index: 2; }
   .bg-pattern2::after {
-    background-image: url(img/core-img/pattern2.png);
+    background-image: url(../../../public/css/egames/core-img/pattern2.png);
     background-repeat: repeat;
     content: '';
     position: absolute;
@@ -607,7 +607,7 @@ img {
   z-index: 1;
   background-color: #0c0c0c;
   border-top: 1px solid #fff;
-  background-image: url(img/core-img/pattern.png);
+  background-image: url(../../../public/css/egames/core-img/pattern.png);
   background-repeat: repeat; }
   .footer-area .single-footer-widget {
     position: relative;
@@ -1154,7 +1154,7 @@ img {
     left: 1110px;
     content: '';
     background-color: rgba(14, 14, 14, 0.8);
-    background-image: url(img/core-img/pattern.png);
+    background-image: url(../../../public/css/egames/core-img/pattern.png);
     z-index: 6000; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .left-right-pattern::after {
@@ -1173,7 +1173,7 @@ img {
     left: -1110px;
     content: '';
     background-color: rgba(14, 14, 14, 0.8);
-    background-image: url(img/core-img/pattern.png);
+    background-image: url(../../../public/css/egames/core-img/pattern.png);
     z-index: 6000; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .left-right-pattern::before {

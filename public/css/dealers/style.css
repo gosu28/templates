@@ -472,7 +472,7 @@ a {
     position: relative; }
     .site-blocks-cover.wave:after {
       display: none;
-      background-image: url("../images/wave.svg");
+      background-image: url("../../../public/image/dealers/wave.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
