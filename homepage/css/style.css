@@ -286,6 +286,7 @@ center h3 {
 
 .footer span {
   line-height: 35px;
+  font-size: 12px;
 }
 
 .footer span a {
@@ -323,6 +324,7 @@ center h3 {
     text-decoration: none;
     color: black;
     line-height: 30px;
+    font-size: 10px;
 }
 
 .footer .about-me a:hover,
@@ -387,8 +389,13 @@ center h3 {
 }
 
 .all-web .web-info img {
+<<<<<<< HEAD
   width: 300px;
   height: 300px;
+=======
+  max-width: 100%;
+  height: auto;
+>>>>>>> 4a9b413a481a1435a24ba0a0c6483d1f45f80feb
 }
 
 .all-web .web-info a {
