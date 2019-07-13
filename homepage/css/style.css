@@ -13,7 +13,47 @@ i {
   height: 20px;
   text-align: center;
 }
+.icon {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
 @media only screen and (max-width: 425px) {
+  .info-contact .text-center img {
+    width: 150px;
+  }
+  .our-webcoderskull .cnt-block img {
+    width: 100px !important;
+  }
+  .info-contact .mt-50 {
+    margin-top: 10px;
+  }
+  .info-contact h5 {
+    font-size: 13px;
+  }
+  .info-customer h5 {
+    font-size: 13px;
+  }
+  .info-customer label b {
+    font-size: 12px;
+  }
+  input[type=text], input[type=password] {
+    font-size: 11px !important;
+  }
+  textarea {
+    font-size: 11px !important;
+  }
+  label {
+    margin-bottom: 0rem;
+  }
+  .info-contact .mt-50 p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  .modal-content {
+    width: 80% !important;
+  }
   .web-detail .more-info {
     line-height: 37px !important;
   }
@@ -39,43 +79,24 @@ i {
     float: right;
     height: 30px;
   }
-  
-}
-.text-center.button a {
-  float: left;
-}
-.text-center.button button {
-  float: right;
-}
-.footer span,
-.footer .about-me a, 
-.footer .service a {
-  font-size: 17px !important;
-}
-@media only screen and (max-width: 768px) {
-  .navbar-nav .dropdown-menu{
-    width: 100%;
-    text-align: center;
+  .navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative ;
+    top: 5px !important;
+    font-size: 13px !important;
   }
-  a {
-        color: #25ff54;
-        text-decoration: none;
-    }
-    .collapse .navbar-nav .nav-item a{
-        text-decoration:none !important;
-    }
-  .collapse.navbar-collapse {
-  margin-left: 0px !important;
+  .navbar-light .navbar-brand {
+    padding-left: 0 !important;
   }
-  .all-web .web-info img {
-    width: 250px;
-    height: 250px;
+  .nav.navbar-nav.navbar-right {
+    padding-right: 0 !important;
   }
-}
-@media only screen and (max-width: 425px) {
-  .all-web .web-info img {
-    width: 250px !important;
-    height: 250px !important;
+  .close {
+    font-size: 20px !important;
+  }
+  .navbar-light .navbar-brand {
+    padding-left: 0!important;
   }
   .all-web .web-info a {
     font-size: 10px;
@@ -116,6 +137,55 @@ i {
   .row.heading h2 {
     font-size: 20px !important;
   }
+}
+@media only screen and (max-width: 994px) {
+  .all-web .web-info img {
+    width: 290px !important;
+    height: 290px !important;
+  }
+}
+.text-center.button a {
+  float: left;
+}
+.text-center.button button {
+  float: right;
+}
+.footer span,
+.footer .about-me a, 
+.footer .service a {
+  font-size: 17px !important;
+}
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 83% !important;
+  }
+  .comment img {
+    width: 250px !important;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    font-size: 14px !important;
+  }
+  .navbar-nav .dropdown-menu{
+    width: 100%;
+    text-align: center;
+  }
+  a {
+        color: #25ff54;
+        text-decoration: none;
+    }
+    .collapse .navbar-nav .nav-item a{
+        text-decoration:none !important;
+    }
+  .collapse.navbar-collapse {
+  margin-left: 0px !important;
+  }
+  .all-web .web-info img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  
 }
 .more-info {
   font-size: 14px;
@@ -412,8 +482,8 @@ center h3 {
 }
 
 .all-web .web-info img {
-  width: 300px;
-  height: 300px;
+  width: 425px;
+  height: 425px;
 }
 
 .all-web .web-info a {
@@ -478,21 +548,54 @@ span.psw {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 .modal-content {
     background-color: #fefefe;
     margin: 1% auto 15% auto;
     border: 1px solid #888;
-    width: 60% !important;
+    width: 80% !important;
 }
 
 .close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
+  right: 5px;
+  top: 5px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+}
+i.next {
+  position: relative;
+    top: 0px;
+    right: 5px;
+}
+i.icon {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.comment img {
+  width: 300px;
+}
+.info-contact h5,
+.info-customer h5 {
+  font-weight: bold;
+}
+input[type=text], input[type=password] {
+  font-size: 15px;
+  padding: 5px 3px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.navbar-light .navbar-brand {
+  padding-left: 10%;
+}
+.nav.navbar-nav.navbar-right {
+  padding-right: 10%;
+}
+.nav.navbar-nav.navbar-right li a {
+  color: black;
+  font-size: 20px;
 }
 
 .close:hover,

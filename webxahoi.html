@@ -30,32 +30,29 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-            <img src="./homepage/image/logo.png" alt="" style="width: 150px;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-center navbar-fixed-top" id="collapsibleNavbar">
-                <ul class="nav navbar-nav navbar-right ml-auto">
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Web
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#webgame">Web bán hàng</a>
-                      <a class="dropdown-item" href="#webkinhdoanh">Web kinh doanh</a>
-                      <a class="dropdown-item" href="#webtapchi">Web tạp chí</a>
-                      <a class="dropdown-item" href="#webxahoi">Web xã hội</a>
-                  </div>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" onclick="document.getElementById('id01').style.display='block'"
-                    style="cursor:pointer;display:inline-block">Liên hệ</a>
-                </li>
-            </ul>
-        </div>
-    </nav>  
+        <a class="navbar-brand" href="home.html">
+          <img src="./homepage/image/logo.png" alt="" style="width: 150px;"></a>
+    
+        <ul class="nav navbar-nav navbar-right ml-auto">
+          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Web
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#webgame">Web bán hàng</a>
+                          <a class="dropdown-item" href="#webkinhdoanh">Web kinh doanh</a>
+                          <a class="dropdown-item" href="#webtapchi">Web tạp chí</a>
+                          <a class="dropdown-item" href="#webxahoi">Web xã hội</a>
+                      </div>
+                    </li> -->
+          <li class="nav-item">
+            <a class="nav-link" onclick="document.getElementById('id01').style.display='block'"
+              style="cursor:pointer;display:inline-block;color:#067d3d;">Liên hệ</a>
+          </li>
+        </ul>
+    
+      </nav>
   <center>
     <h3>Web Xã Hội</h3>
     <span>Chọn các trang chủ tuyệt vời để biến chúng thành của riêng bạn</span>
@@ -166,35 +163,51 @@
         <button class="btn btn-outline-danger xemthem" data-toggle="collapse" data-target="#demo">Xem thêm<i class="fas fa-arrow-right"></i></button>
       </div>
   </div>
-  <div id="id01" class="modal">
+ <!--container end.//-->
+ <div id="id01" class="modal">
     <form class="modal-content animate" action="">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close"
+        title="Close Modal">&times;</span>
       <div class="container pt-4">
         <div class="row">
-          <div class="info-contact  col-md-5 ">
+          <div class="info-contact col-md-5">
             <h5>Thông tin liên hệ</h5>
-            <div class="mt-50">
-              <p>Địa chỉ: Tòa CT2, khu đô thị Thái Hà Constrexim, 43 Phạm Văn Đồng, Hà Nội</p>
-              <p>Email: </p>
-              <p>Hotline: 0927 15 15 35 (Mr. Hải)</p>
-              <p>Website: <a href="">Talentwins.co</a></p>
+            <div class="mt-50 text-left">
+              <div class="col-md-12 d-flex justify-content-start content-contact">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Tòa CT2, khu đô thị Thái Hà Constrexim, 43 Phạm Văn Đồng, Hà Nội</p>
+              </div>
+              <div class="col-md-12 d-flex justify-content-start content-contact">
+                <i class="fas fa-envelope"></i>
+                <p>contact@talentwins.co</p>
+              </div>
+              <div class="col-md-12 d-flex justify-content-start content-contact">
+                <i class="fas fa-phone"></i>
+                <p>0927 15 15 35 - Zalo</p>
+              </div>
+              <div class="col-md-12 d-flex justify-content-start content-contact">
+                <i class="fas fa-globe-americas"></i>
+                <p><a href=""> Talentwins.co</a></p>
+              </div>
             </div>
             <div class="text-center"><img src="./homepage/image/contact.jpg" alt=""></div>
           </div>
-          <div class="col-md-7  info-customer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close"
-              title="Close Modal">&times;</span>
-            <h5>Thông tin khách hàng</h5>
-            <label for="name"><b>Name</b> <span style="color:red;">(*)</span></label>
-            <input type="text" placeholder="Họ tên" name="name" required>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Địa chỉ email" name="email">
-            <label for="phone"><b>Phone Number</b> <span style="color:red;">(*)</span></label>
-            <input type="text" placeholder="Số điện thoại" name="phoneNumber" required>
-            <label for="messenger"><b>Messenger</b> <span style="color:red;">(*)</span></label>
-            <textarea name="" id="" rows="5" style="width:100%;"></textarea>
-            <div class="text-center pt-3"><button type="submit" class="btn btn-success">Đăng kí để nhận thông
-                tin</button></div>
-            <br>
+          <div class="col-md-7 info-customer">
+            <div class="text-left pb-3">
+              <h5 class="pb-2">Thông tin khách hàng</h5>
+              <label for="name"><b>Họ và tên</b> <span style="color:red;">(*)</span></label>
+              <input type="text" placeholder="Họ tên" name="name" required>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Địa chỉ email" name="email">
+              <label for="phone"><b>Điện thoại</b> <span style="color:red;">(*)</span></label>
+              <input type="text" placeholder="Số điện thoại" name="phoneNumber" required>
+              <label for="webcode"><b>Mã website đăng kí</b> <span style="color:red;">(*)</span></label>
+              <input type="text" placeholder="Số điện thoại" name="phoneNumber" required><br>
+              <label for="messenger"><b>Nội dung</b> <span style="color:red;">(*)</span></label>
+              <textarea name="" id="" rows="5" style="width:100%;"></textarea>
+              <div class="text-center pt-3"><button type="submit" class="btn btn-success">Đăng kí sử dụng</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
