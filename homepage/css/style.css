@@ -13,9 +13,53 @@ i {
   height: 20px;
   text-align: center;
 }
+.icon {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
 @media only screen and (max-width: 425px) {
+  .info-contact .text-center img {
+    width: 150px;
+  }
+  .our-webcoderskull .cnt-block img {
+    width: 100px !important;
+  }
+  .info-contact .mt-50 {
+    margin-top: 10px;
+  }
+  .info-contact h5 {
+    font-size: 13px;
+  }
+  .info-customer h5 {
+    font-size: 13px;
+  }
+  .info-customer label b {
+    font-size: 12px;
+  }
+  input[type=text], input[type=password] {
+    font-size: 11px !important;
+  }
+  textarea {
+    font-size: 11px !important;
+  }
+  label {
+    margin-bottom: 0rem;
+  }
+  .info-contact .mt-50 p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  .modal-content {
+    width: 80% !important;
+  }
   .web-detail .more-info {
     line-height: 37px !important;
+  }
+  web-detail:hover{
+    box-shadow: 0px 0px 10px #D8D8D8;
+
   }
   .web-detail .more-info .see-more {
     font-size: 11px !important;
@@ -24,12 +68,110 @@ i {
   .no-js .owl-carousel, .owl-carousel.owl-loaded {
     height: 150px !important;
   }
+  .nav-link {
+    font-size: 11px;
+  }
+  .text-center.button a,
+  .text-center.button button {
+    font-size: 10px;
+  }
+  .text-center.button a {
+    float: left;
+    height: 30px;
+  }
+  .text-center.button button {
+    float: right;
+    height: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative ;
+    top: 5px !important;
+    font-size: 13px !important;
+  }
+  .navbar-light .navbar-brand {
+    padding-left: 0 !important;
+  }
+  .nav.navbar-nav.navbar-right {
+    padding-right: 0 !important;
+  }
+  .close {
+    font-size: 20px !important;
+  }
+  .navbar-light .navbar-brand {
+    padding-left: 0!important;
+  }
+  .all-web .web-info a {
+    font-size: 10px;
+  }
+  .split span {
+    font-size: 8px;
+  }
+  .about-me {
+    padding-bottom: 15px;
+  }
+  .footer h4 {
+    padding-bottom: 0;
+  }
+  .footer span {
+    line-height: 20px !important;
+    font-size: 13px !important;
+  }
+  .footer .about-me a, .footer .service a {
+    line-height: 20px !important;
+    font-size: 13px !important;
+  }
+  center span {
+    margin: 0 20px;
+  }
+  center {
+    top: 63px !important;
+  }
+  .slider-product.owl-carousel .owl-item img {
+    height: 86px !important;
+  }
+  .btn.see-more {
+    font-size: 10px;
+    height: 30px;
+  }
+  .name-web span {
+    font-size: 20px !important;
+  }
+  .row.heading h2 {
+    font-size: 20px !important;
+  }
 }
-@media screen (max-width: 768px) {
+@media only screen and (max-width: 994px) {
+  .all-web .web-info img {
+    width: 290px !important;
+    height: 290px !important;
+  }
+}
+.text-center.button a {
+  float: left;
+}
+.text-center.button button {
+  float: right;
+}
+.footer span,
+.footer .about-me a, 
+.footer .service a {
+  font-size: 17px !important;
+}
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 83% !important;
+  }
+  .comment img {
+    width: 250px !important;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    font-size: 14px !important;
+  }
   .navbar-nav .dropdown-menu{
     width: 100%;
     text-align: center;
-    
   }
   a {
         color: #25ff54;
@@ -40,7 +182,14 @@ i {
     }
   .collapse.navbar-collapse {
   margin-left: 0px !important;
+  }
+  .all-web .web-info img {
+    width: 250px;
+    height: 250px;
+  }
 }
+@media only screen and (max-width: 425px) {
+  
 }
 .more-info {
   font-size: 14px;
@@ -68,7 +217,7 @@ i {
 }
 
 .navbar-brand {
-    padding-left: 5%;
+    padding-left: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -133,7 +282,7 @@ i {
 }
 
 .slider-product.owl-carousel .owl-item img {
-    height: 100%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -166,7 +315,7 @@ i {
   text-align: center;
     /*font-family:Pristina ;*/
     text-transform: capitalize;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     padding-left: 3%;
 }
 
@@ -243,7 +392,7 @@ center h3 {
 
 .split {
     background: #124856;
-    color: white;
+    color: gray;
 }
 
 .web-detail {
@@ -253,13 +402,21 @@ center h3 {
 
 .web-detail:hover {
   background: #97484026;
-    box-shadow: 0px 5px 10px 3px #a6a6a6;
+  box-shadow: 0px 5px 10px 3px #a6a6a6;
 }
 
 .web-detail-info {
-  padding-bottom: 50px;
-}
+  padding-bottom: 20px;
+  margin-top:20px;
+  border-radius: 10px 10px 10px 10px;
+  transition: all 0.5s 0.1s ;
 
+}
+.web-detail-info:hover {
+  box-shadow: 0px 0px 5px rgba(145, 114, 114, 0.2);
+  background: #E6E6E6;
+
+}
 .user-comment img {
     width: 150px;
     padding: 0;
@@ -337,8 +494,8 @@ center h3 {
 }
 
 .all-web .web-info img {
-  max-width: 100%;
-  height: auto;
+  width: 425px;
+  height: 425px;
 }
 
 .all-web .web-info a {
@@ -403,21 +560,54 @@ span.psw {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 .modal-content {
     background-color: #fefefe;
     margin: 1% auto 15% auto;
     border: 1px solid #888;
-    width: 60% !important;
+    width: 80% !important;
 }
 
 .close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
+  right: 5px;
+  top: 5px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+}
+i.next {
+  position: relative;
+    top: 0px;
+    right: 5px;
+}
+i.icon {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.comment img {
+  width: 300px;
+}
+.info-contact h5,
+.info-customer h5 {
+  font-weight: bold;
+}
+input[type=text], input[type=password] {
+  font-size: 15px;
+  padding: 5px 3px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.navbar-light .navbar-brand {
+  padding-left: 10%;
+}
+.nav.navbar-nav.navbar-right {
+  padding-right: 10%;
+}
+.nav.navbar-nav.navbar-right li a {
+  color: black;
+  font-size: 20px;
 }
 
 .close:hover,
@@ -429,7 +619,16 @@ span.psw {
 .btn.see-more {
   position: relative;
   z-index: 100;
-  background: #33a6d2;
+  background: #04B404;
+  color:#ffffff;
+  border:gray solid 1px;
+  transition: all 0.5s 0s;
+}
+.btn.see-more:hover
+{
+  color:#FFFF00; 
+  box-shadow: 0px 0px 10px grey;
+  transform: scale(1.2);
 }
 
 /* Add Zoom Animation */
@@ -506,9 +705,9 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
+/* .active {
   background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
