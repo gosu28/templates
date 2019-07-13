@@ -24,12 +24,15 @@ i {
   .no-js .owl-carousel, .owl-carousel.owl-loaded {
     height: 150px !important;
   }
+  .nav-link {
+    font-size: 11px;
+  }
+  
 }
 @media screen (max-width: 768px) {
   .navbar-nav .dropdown-menu{
     width: 100%;
     text-align: center;
-    
   }
   a {
         color: #25ff54;
@@ -40,7 +43,56 @@ i {
     }
   .collapse.navbar-collapse {
   margin-left: 0px !important;
+  }
+  .all-web .web-info img {
+    width: 250px;
+    height: 250px;
+  }
 }
+@media only screen and (max-width: 425px) {
+  .all-web .web-info img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .all-web .web-info a {
+    font-size: 10px;
+  }
+  .split span {
+    font-size: 8px;
+  }
+  .about-me {
+    padding-bottom: 15px;
+  }
+  .footer h4 {
+    padding-bottom: 0;
+  }
+  .footer span {
+    line-height: 20px !important;
+    font-size: 13px;
+  }
+  .footer .about-me a, .footer .service a {
+    line-height: 20px !important;
+    font-size: 13px;
+  }
+  center span {
+    margin: 0 20px;
+  }
+  center {
+    top: 63px !important;
+  }
+  .slider-product.owl-carousel .owl-item img {
+    height: 86px !important;
+  }
+  .btn.see-more {
+    font-size: 10px;
+    height: 30px;
+  }
+  .name-web span {
+    font-size: 20px !important;
+  }
+  .row.heading h2 {
+    font-size: 20px !important;
+  }
 }
 .more-info {
   font-size: 14px;
@@ -68,7 +120,7 @@ i {
 }
 
 .navbar-brand {
-    padding-left: 5%;
+    padding-left: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -133,7 +185,7 @@ i {
 }
 
 .slider-product.owl-carousel .owl-item img {
-    height: 100%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -243,7 +295,7 @@ center h3 {
 
 .split {
     background: #124856;
-    color: white;
+    color: gray;
 }
 
 .web-detail {
@@ -337,8 +389,13 @@ center h3 {
 }
 
 .all-web .web-info img {
+<<<<<<< HEAD
+  width: 300px;
+  height: 300px;
+=======
   max-width: 100%;
   height: auto;
+>>>>>>> 4a9b413a481a1435a24ba0a0c6483d1f45f80feb
 }
 
 .all-web .web-info a {
