@@ -27,9 +27,32 @@ i {
   .nav-link {
     font-size: 11px;
   }
+  .text-center.button a,
+  .text-center.button button {
+    font-size: 10px;
+  }
+  .text-center.button a {
+    float: left;
+    height: 30px;
+  }
+  .text-center.button button {
+    float: right;
+    height: 30px;
+  }
   
 }
-@media screen (max-width: 768px) {
+.text-center.button a {
+  float: left;
+}
+.text-center.button button {
+  float: right;
+}
+.footer span,
+.footer .about-me a, 
+.footer .service a {
+  font-size: 17px !important;
+}
+@media only screen and (max-width: 768px) {
   .navbar-nav .dropdown-menu{
     width: 100%;
     text-align: center;
@@ -51,8 +74,8 @@ i {
 }
 @media only screen and (max-width: 425px) {
   .all-web .web-info img {
-    width: 200px !important;
-    height: 200px !important;
+    width: 250px !important;
+    height: 250px !important;
   }
   .all-web .web-info a {
     font-size: 10px;
@@ -68,11 +91,11 @@ i {
   }
   .footer span {
     line-height: 20px !important;
-    font-size: 13px;
+    font-size: 13px !important;
   }
   .footer .about-me a, .footer .service a {
     line-height: 20px !important;
-    font-size: 13px;
+    font-size: 13px !important;
   }
   center span {
     margin: 0 20px;
@@ -389,13 +412,8 @@ center h3 {
 }
 
 .all-web .web-info img {
-<<<<<<< HEAD
   width: 300px;
   height: 300px;
-=======
-  max-width: 100%;
-  height: auto;
->>>>>>> 4a9b413a481a1435a24ba0a0c6483d1f45f80feb
 }
 
 .all-web .web-info a {
