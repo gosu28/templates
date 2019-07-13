@@ -17,6 +17,10 @@ i {
   .web-detail .more-info {
     line-height: 37px !important;
   }
+  web-detail:hover{
+    box-shadow: 0px 0px 10px #D8D8D8;
+
+  }
   .web-detail .more-info .see-more {
     font-size: 11px !important;
     height: 26px !important;
@@ -241,7 +245,7 @@ i {
   text-align: center;
     /*font-family:Pristina ;*/
     text-transform: capitalize;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     padding-left: 3%;
 }
 
@@ -328,13 +332,21 @@ center h3 {
 
 .web-detail:hover {
   background: #97484026;
-    box-shadow: 0px 5px 10px 3px #a6a6a6;
+  box-shadow: 0px 5px 10px 3px #a6a6a6;
 }
 
 .web-detail-info {
-  padding-bottom: 50px;
-}
+  padding-bottom: 20px;
+  margin-top:20px;
+  border-radius: 10px 10px 10px 10px;
+  transition: all 0.5s 0.1s ;
 
+}
+.web-detail-info:hover {
+  box-shadow: 0px 0px 5px rgba(145, 114, 114, 0.2);
+  background: #E6E6E6;
+
+}
 .user-comment img {
     width: 150px;
     padding: 0;
@@ -504,7 +516,16 @@ span.psw {
 .btn.see-more {
   position: relative;
   z-index: 100;
-  background: #33a6d2;
+  background: #04B404;
+  color:#ffffff;
+  border:gray solid 1px;
+  transition: all 0.5s 0s;
+}
+.btn.see-more:hover
+{
+  color:#FFFF00; 
+  box-shadow: 0px 0px 10px grey;
+  transform: scale(1.2);
 }
 
 /* Add Zoom Animation */
@@ -581,9 +602,9 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
+/* .active {
   background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
